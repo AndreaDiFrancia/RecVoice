@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import AVFoundation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, AVAudioRecorderDelegate {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+     
+      
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -27,6 +31,8 @@ class ViewController: UIViewController {
         activityVC.popoverPresentationController?.sourceView = self.view
         self.present(activityVC, animated: true, completion: nil)
     }
+    
+    
     
 }
 

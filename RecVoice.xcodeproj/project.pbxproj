@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7427A8D12018792D00EAEB7E /* AudioRecordMenager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7427A8D02018792D00EAEB7E /* AudioRecordMenager.swift */; };
 		7467C4E12017CB8500F562D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7467C4E02017CB8500F562D2 /* AppDelegate.swift */; };
 		7467C4E32017CB8500F562D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7467C4E22017CB8500F562D2 /* ViewController.swift */; };
 		7467C4E62017CB8500F562D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7467C4E42017CB8500F562D2 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7427A8D02018792D00EAEB7E /* AudioRecordMenager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecordMenager.swift; sourceTree = "<group>"; };
 		7467C4DD2017CB8500F562D2 /* RecVoice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecVoice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7467C4E02017CB8500F562D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7467C4E22017CB8500F562D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				7467C4E02017CB8500F562D2 /* AppDelegate.swift */,
 				7467C4E22017CB8500F562D2 /* ViewController.swift */,
+				7427A8D02018792D00EAEB7E /* AudioRecordMenager.swift */,
 				7467C4E42017CB8500F562D2 /* Main.storyboard */,
 				7467C4EA2017CB8500F562D2 /* Assets.xcassets */,
 				7467C4EC2017CB8500F562D2 /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 				7467C4E92017CB8500F562D2 /* RecVoice.xcdatamodeld in Sources */,
 				7467C4E32017CB8500F562D2 /* ViewController.swift in Sources */,
 				7467C4E12017CB8500F562D2 /* AppDelegate.swift in Sources */,
+				7427A8D12018792D00EAEB7E /* AudioRecordMenager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
